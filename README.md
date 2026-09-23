@@ -28,9 +28,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img width="480" height="312" alt="image" src="https://github.com/user-attachments/assets/a93fea07-f9bb-4f6a-b570-0f289435ef97" />
 
-<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2dndmZ1ZmgwZG82NnhuOTB5dWgzM2xobXA4enVkanlxYnUzM3JrMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xpVXynAjIEeoO8QXFd/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIPHY
