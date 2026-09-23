@@ -1,57 +1,54 @@
-# Encore
+# WEB103 Project 1 - *Encore*
 
 Submitted by: **Abha Mam**
 
-Encore is a listicle web app that helps students discover live music happening near their college — indie shows, open mic nights, hip-hop cyphers, EDM raves, and everything in between. Browse upcoming events on the home page, then click into any event to see its full details.
+About this web app: **A music concert website that lists local performing artists**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] The web app uses only HTML, CSS, and JavaScript without a frontend framework
-- [x] Front page of web app is functional and appropriately styled
-  - [x] The web app displays a title
-  - [x] Website displays at least five unique list items (8 events)
-  - [x] Each list item includes at least three displayed attributes (name, date, venue, genre, ticket price, and image)
-- [x] Each list item has a corresponding page
-  - [x] The user can click on each item in the list to see a detailed view of it, including all database fields (name, artists, date, venue, genre, ticket price, image, description)
-- [x] The web app serves an appropriate 404 page when no matching route is defined
-- [x] The webpage is styled with Picocss
+<!-- Make sure to check off completed functionality below -->
+- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [X] **The web app displays a title**
+- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
+- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
+  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [X] **The web app serves an appropriate 404 page when no matching route is defined**
+- [X] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
 
-- [x] List items are displayed in a unique format (cards, laid out in a responsive grid)
+- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
 ## Video Walkthrough
 
-<!-- Replace this with an actual GIF/video walkthrough of the app before submitting. -->
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented required features:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...
+<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2dndmZ1ZmgwZG82NnhuOTB5dWgzM2xobXA4enVkanlxYnUzM3JrMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xpVXynAjIEeoO8QXFd/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  GIPHY
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-- The `/:eventId` route re-sends the same `event.html` document for every ID, and the ID is parsed and matched against the data client-side with `fetch('/events')` — this mirrors the two-tier routing approach from the Unit 1 lab (server serves the shell, client fills it in).
-- Because `client/public/event.html` and `client/public/404.html` are copied as static files (not processed by Vite like `index.html` is), their stylesheet is referenced as an absolute `/style.css` path rather than a Vite-bundled asset, and `style.css` lives in `client/public/` so it's copied verbatim on build.
+Nothing significant
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Abha Mam]
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+> http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
