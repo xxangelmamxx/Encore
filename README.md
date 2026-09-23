@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img width="480" height="312" alt="image" src="https://github.com/user-attachments/assets/a93fea07-f9bb-4f6a-b570-0f289435ef97" />
+<img width="480" height="312" alt="image" src="https://github.com/user-attachments/assets/cff8cfab-7f57-4d7c-a2bd-0fcc842f9a71" />
 
 
 <!-- Replace this with whatever GIF tool you used! -->
